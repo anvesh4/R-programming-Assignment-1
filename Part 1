@@ -1,4 +1,5 @@
-pollutantmean <- function(directory,pollutant,id = 1:332){
+pollutantmean <- function(directory,pollutant,id = 1:332)
+{
   files_full <- list.files(directory,full.names = TRUE)
   dat <- data.frame()
   for(i in id){
